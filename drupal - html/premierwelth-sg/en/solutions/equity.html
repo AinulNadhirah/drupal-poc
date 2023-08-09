@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html><head><script src="https://www.maybank2u.com.sg/iwov-resources/sg/js/gtm.js" type="text/javascript"></script><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Maybank Premier</title><!--fixed-layout--><!--ls:begin[stylesheet]--><link href="/iwov-resources/fixed-layout/MayBank-Layout.css" type="text/css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[meta-keywords]--><meta name="keywords" content=""><!--ls:end[meta-keywords]--><!--ls:begin[meta-description]--><meta name="description" content=""><!--ls:end[meta-description]--><!--ls:begin[meta-vpath]--><meta name="vpath" content=""><!--ls:end[meta-vpath]--><!--ls:begin[meta-page-locale-name]--><meta name="page-locale-name" content=""><!--ls:end[meta-page-locale-name]--><!--ls:begin[Custom: Facebook Open Graph codes]--><meta property="og:title" content="Maybank Premier Wealth"><meta property="og:description" content=""><!--ls:end[Custom: Facebook Open Graph codes]--><!--ls:begin[stylesheet]-->
+    <link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/custom.css?v=1.5" rel="stylesheet">
+ <script type="text/javascript">
+function maybank_loc_menu_ui_fix() {
+ if ($(window).width() > 460) {
+  $('.maybank-header-area-cls').css({
+'overflow': 'visible'
+  });
+  $('.maybank-header-area-cls .ls-area-body').css({
+'overflow': 'visible'
+  });
+  $('.maybank-header-area-cls .off-canvas-wrap').css({
+'overflow': 'visible'
+  });
+
+  $('.maybank-header-area-cls .right-off-canvas-menu').css({
+'display': 'none'
+  });
+ } else {
+  $('.maybank-header-area-cls').css({
+'overflow': ''
+  });
+  $('.maybank-header-area-cls .ls-area-body').css({
+'overflow': ''
+  });
+  $('.maybank-header-area-cls .off-canvas-wrap').css({
+'overflow': ''
+  });
+
+  $('.maybank-header-area-cls .right-off-canvas-menu').css({
+'display': ''
+  });
+ }
+}
+
+$(document).ready(function() {
+ maybank_loc_menu_ui_fix();
+ /*	$(".off-canvas-wrap").removeClass("off-canvas-wrap");
+				$(".inner-wrap").removeClass("inner-wrap");
+				$( ".maybank-flexible-layout" ).wrapInner( '<div class="off-canvas-wrap"></div>');
+				$( ".off-canvas-wrap" ).wrapInner( '<div class="iner-wrap"></div>');	*/
+});
+
+$(window).resize(function() {
+ maybank_loc_menu_ui_fix();
+});
+
+$(document).ready(function() {
+ $("h3").change(function() {
+  //$('.orbit-prev').hide();
+  $('.orbit-next').hide();
+  $('.' + $(this).val()).show();
+ });
+
+ $(".card_benefit_head").click(function() {
+ 	 	$(this).toggleClass("active");
+ 	 	$(this).next(".card_benefits_content").slideToggle("slow");
+ 	 });
+
+});
+  </script>
+<link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/vendor/foundation.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/vendor/foundation5.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/vendor/video-js.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/plugin.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/reset.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/vendor/animate.min.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/style.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/vendor/camera.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/premier.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/font.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/calculator/bootstrap.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/calculator/main.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/calculator/rzslider.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/calculator/angular-toggle-switch.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/css/ie.css" rel="stylesheet"><!--ls:end[stylesheet]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/vendor/modernizr.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/granite/jquery.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/granite/utils.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/granite/jquery/granite.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/foundation/jquery.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/foundation/shared.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/granite/underscore.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/foundation/personalization/kernel.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/global/common.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/global/categories.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/global/favourites.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/forms/callback.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/forms/feedback.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/forms/profiler.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/forms/newsletter.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/global/newslisting.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/news/popularreads.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/news/eventsignup.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/forms/takeover.js"></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/components/global/maps.js"></script><!--ls:end[script]--><!--ls:begin[script]-->
+<script type="text/javascript" src="/iwov-resources/PremierWealth/static/clientlibs/foundation/gtm.js"></script>
+<!--ls:end[script]--><!--ls:begin[favicon]--><link type="image/x-icon" href="/iwov-resources/PremierWealth/images/favicon/favicon.ico" rel="shortcut icon"><!--ls:end[favicon]--><!--ls:begin[head-injection]--><!--ls:end[head-injection]--><!--ls:begin[script]--><!--ls:end[script]-->
+
+<!-- BEGIN: Marin Software Tracking Script (Confirmation Page) -->
+<script type='text/javascript'>
+var _mTrack = _mTrack || [];
+_mTrack.push(['addTrans', {
+    currency :'SGD',
+    items : [{
+convType : 'pw_landing'
+}]
+}]);
+_mTrack.push(['processOrders']);
+(function() {
+    var mClientId = '708sqa25361';
+    var mProto = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+    var mHost = 'tracker.marinsm.com';
+    var mt = document.createElement('script'); mt.type = 'text/javascript'; mt.async = true; mt.src = mProto + mHost + '/tracker/async/' + mClientId + '.js';
+    var fscr = document.getElementsByTagName('script')[0]; fscr.parentNode.insertBefore(mt, fscr);
+})();
+</script>
+</head><noscript>
+<img width="1" height="1" src="https://tracker.marinsm.com/tp?act=2&cid=708sqa25361&script=no" />
+</noscript>
+<!-- END: Copyright Marin Software -->
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe
+src="https://www.googletagmanager.com/ns.html?id=GTM-WBCZR95" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!--ls:begin[body]--><div class="ls-canvas maybank-flexible-layout" id="maybank-flexible-layout-id"><div class="ls-row maybank-header-row-cls" id="ls-row-1"><div class="ls-lqr" id="ls-gen70123199-ls-lqr"><div class="ls-area maybank-header-area-cls" id="ls-row-1-area-1"><div class="ls-area-body" id="ls-gen70123200-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1469502076567"><!--ls:begin[component-1469502076567]--><div class="iw_component" id="1469502076567"><div class="off-canvas-wrap" data-offcanvas=""><div class="inner-wrap"><div class="header">
+	
+	
+	
+	 <header>
+    <div id="header-top">
+      <div class="row"> <a id="logo-maybank" href="/premierwealth/sg/en/aboutus.html"><img alt="" src="/iwov-resources/PremierWealth/sg/images/logo-maybank-premier.png"></a>
+        <div id="header-right">
+          <p class="premium"> <a target="_blank" href="https://sslsecure.maybank.com.sg/cgi-bin/mbs/prscripts/mbb_login.jsp"><span class="show-for-medium-up">Login to <strong>Maybank2u</strong></span></a> </p>
+          <span class="icons"><a class="iconPhone " href="#"><img alt="" src="/iwov-resources/PremierWealth/sg/images/icon_phone.gif"></a><a class="iconSearch" href="#"><img alt="" src="/iwov-resources/PremierWealth/sg/images/icon_search.png"></a></span>
+          <div class="lang selectDropdown">
+            <p>sg</p>
+            <ul>
+              <li> <a href="/premierwealth/sg/en/aboutus.html" data="sg">sg</a> </li>
+              <li> <a href="/premierwealth/my/en/aboutus.html" data="my">my</a> </li>
+              <li> <a href="/premierwealth/ph/en/aboutus.html" data="ph">ph</a> </li>
+              <li> <a href="/premierwealth/kh/en/aboutus.html" data="kh">kh</a> </li>
+              <li> <a href="https://www.maybank.co.id/consumer/wealth-management/premier-wealth/Documents/index.html" data="ID">ID</a> </li>
+            </ul>
+          </div>
+          <a href="#" class="right-off-canvas-toggle hide-for-medium-up"><img alt="" src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/images/nav_mobile_toggle.png"></a> </div>
+      </div>
+    </div>
+    <nav>
+      <div class="row row-nav">
+        
+        <ul class="sgNav" id="nav">
+          <li id="aboutus"> <a href="/premierwealth/sg/en/aboutus.html" onClick="&quot;MT.trackClickableConversion('pw_ABOUT US');&quot;">ABOUT US</a> </li>
+          <li id="lifestyle"> <a href="/premierwealth/sg/en/lifestyle.html" onClick="&quot;MT.trackClickableConversion('pw_PRIVILEGES');&quot;">PRIVILEGES</a> </li>
+          <li id="solutions"> <a href="/premierwealth/sg/en/solutions.html" onClick="&quot;MT.trackClickableConversion('pw_SOLUTIONS');&quot;">SOLUTIONS</a> </li>
+               <li id="insights">
+<a href="/premierwealth/sg/en/insights.html" onclick="&quot;MT.trackClickableConversion('pw_INSIGHTS');&quot;">INSIGHTS</a>
+</li>
+          <li id="rewards"> <a href="/premierwealth/sg/en/rewards.html" onClick="&quot;MT.trackClickableConversion('pw_REWARDS');&quot;">REWARDS</a> </li>
+			<li id="offshore-banking">
+<a href="/premierwealth/sg/en/offshore-banking.html" onclick="&quot;MT.trackClickableConversion('pw_OFFSHORE_BANKING');&quot;">OFFSHORE BANKING</a>
+</li>
+
+          <li id="contact"> <a href="/premierwealth/sg/en/contact.html" onClick="&quot;MT.trackClickableConversion('pw_CONTACT');&quot;">CONTACT</a> </li>
+        </ul>
+        <div class="nav-active"></div>
+      </div>
+    </nav>
+  </header>
+	
+	
+	
+  <aside class="right-off-canvas-menu">
+  <ul>
+<li>
+<a href="/premierwealth/sg/en/aboutus.html">ABOUT US</a>
+</li>
+<li>
+<a href="/premierwealth/sg/en/lifestyle.html">PRIVILEGES</a>
+</li>
+<li>
+<a href="/premierwealth/sg/en/solutions.html">SOLUTIONS</a>
+</li>
+        <li>
+<a href="/premierwealth/sg/en/insights.html">INSIGHTS</a>
+</li>
+<li>
+<a href="/premierwealth/sg/en/rewards.html">REWARDS</a>
+</li>
+	  <li>
+<a href="/premierwealth/sg/en/offshore-banking.html">OFFSHORE BANKING</a>
+</li>
+<li>
+<a href="/premierwealth/sg/en/contact.html">CONTACT</a>
+</li>
+<li>
+<a target="_blank" href="https://sslsecure.maybank.com.sg/cgi-bin/mbs/prscripts/mbb_login.jsp">Login to <strong>Maybank2u</strong></a>
+</li>
+<li class="mobile-lang selectDropdown">
+<p>Country: sg</p>
+<ul>
+<li>
+<a href="/premierwealth/sg/en/aboutus.html" data="sg">sg</a>
+</li>
+<li>
+<a href="/premierwealth/my/en/aboutus.html" data="my">my</a>
+</li>
+<li>
+<a href="/premierwealth/ph/en/aboutus.html" data="ph">ph</a>
+</li>
+<li>
+<a href="/premierwealth/kh/en/aboutus.html" data="kh">kh</a>
+</li>
+<li>
+<a href="https://www.maybank.co.id/consumer/wealth-management/premier-wealth/Documents/index.html" data="ID">ID</a>
+</li>
+</ul>
+</li>
+</ul>
+</aside>
+</div><script type="text/javascript">
+		$(window).load(function(){
+			var getURL = location.href;
+			if(getURL.match(/lifestyle/i) != null){
+				$("#lifestyle").addClass("active");
+			}else if(getURL.match(/aboutus/i) != null){
+				$("#aboutus").addClass("active");		
+			}else if(getURL.match(/solutions/i) != null){
+				$("#solutions").addClass("active");
+			}else if(getURL.match(/rewards/i) != null){
+				$("#rewards").addClass("active");
+			}else if(getURL.match(/awards/i) != null){
+				$("#awards").addClass("active");
+			}else if(getURL.match(/contact/i) != null){
+				$("#contact").addClass("active");
+			}
+			util.widget.initNav();
+		});
+		</script>
+</div><!--ls:end[component-1469502076567]--></div></div></div><div class="ls-row-clr"></div></div></div><div class="ls-row off-canvas-wrap-others" id="main"><div class="ls-lqr" id="ls-gen70123201-ls-lqr"><div class="ls-area masonryOverall clearfix inner-wrap" id="mbbLayout1"><div class="ls-area-body" id="ls-gen70123202-ls-area-body">
+    
+    
+    <div class="ls-cmp-wrap ls-1st" id="w1469502076568"><!--ls:begin[component-1469502076568]--><div class="iw_component" id="1469502076568">
+			
+			<div id="main" role="main">
+				<section class="page" id="">
+		<div class="herobanner">
+<div class="heroBanner">
+<ul>
+<li>
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/equity.png"><div class="orbit-caption">
+<div>
+<div>
+<h5>Equity
+</h5>
+<p>Your personal gateway to global equity markets</p>
+
+</div>
+</div>
+</div>
+</li>
+</ul>
+<a class="nextPage" href=""></a>
+</div>
+</div>
+</div><!--ls:end[component-1469502076568]--></div></div>
+    
+    
+    
+    
+    </div><div class="ls-row-clr"></div></div></div><div class="ls-row off-canvas-wrap-others" id="ls-row-3"><div class="ls-lqr" id="ls-gen70123203-ls-lqr"><div class="ls-area masonryWrap inner-wrap" id="mbbLayout2"><div class="ls-area-body" id="ls-gen70123204-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1469502076570"><!--ls:begin[component-1469502076570]--><div class="iw_component" id="1469502076570"><section id="pWealth" class="page">
+<div class="eligibilitytoolbar">
+<div class="living-social-block">
+<div class="row">
+<h3>Eligibility </h3>
+<div class="sharetoolbar">
+<div class="social-function">
+<span>Share this</span>
+<p class="social-icons">
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.maybankpremierwealth.com/sg/en/rewards.html" class="fb-icon"> </a><a target="_blank" href="https://twitter.com/home?status=http://www.maybankpremierwealth.com/content/premier/sg/en/lifestyle.html" class="twitter-icon"> </a><a target="_blank" href="https://plus.google.com/share?url=http://www.maybankpremierwealth.com/sg/en/rewards.html" class="gplus-icon"> </a><a target="_blank" href="mailto:cs@maybank.com.sg" class="gmail-icon"> </a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pWealth">
+<div class="eligibilityform">
+<div class="popup-eligibility">
+<div class="row"><h3>Become a Premier Wealth Client with deposits and/or investments of S$300,000 or more with us.</h3>
+
+</div>
+<a class="btnClose" href="#"></a>    
+
+<div class="row">
+<p>Click <a href="https://sslsecure.maybank.com.sg/cgi-bin/mbs/scripts/mbb_forms/mbb_contactus_premier.jsp" target="_blank"> here</a> to get started with <a href="https://sslsecure.maybank.com.sg/cgi-bin/mbs/scripts/mbb_forms/mbb_contactus_premier.jsp" target="_blank"> Maybank Premier ></a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div><!--ls:end[component-1469502076570]--></div></div></div><div class="ls-row-clr"></div></div></div>
+    
+    
+    <div class="ls-row clearfix masonryContent off-canvas-wrap-others" id="mbbLayout3"><div class="ls-lqr" id="ls-gen70123205-ls-lqr"><div class="ls-area masonryBlock clearfix inner-wrap" id="ls-row-4-area-1"><div class="ls-area-body" id="ls-gen70123206-ls-area-body">
+        
+        
+        
+        
+        
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>What is Equity?</h2>
+<div class="copy">
+<div class="row">
+<p class="alignLeft">
+</p><p class="alignLeft"><strong>Equity</strong> refers to the stock of a company and is measured in number of shares. When you buy a company’s stock, you become a shareholder, a part-owner of that company. The terms ‘equities’, ‘stocks’, ‘shares’ and ‘securities’ are often used interchangeably. Equities are issued by companies to raise capital or financing from investors. These companies list their stock on the exchange in order to raise funds for reasons such as to grow its business, acquire new assets or to remain solvent. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+</div>
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>Main Classes of Equity</h2>
+<div class="copy">
+<div class="row">
+
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqcommonshare.png">
+  </div>
+  <div class="large-11 columns">
+<p class="alignLeft"><strong>Ordinary Share or Common Share:</strong> Typically carries voting rights in the meetings of the company and are entitled to receive dividends as declared by the Board of Directors.</p>
+  </div>
+
+</div>    
+<div class="row">
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqpreferredshare.png">
+  </div>
+
+  <div class="large-11 columns">
+<p class="alignLeft"> <strong>Preferred Share or Stock: </strong>Typically carries the first preference for payment of dividends. Whenever the company distributes dividends, they are first paid on preferred share capital. In the case of winding up of the company, the preferred shareholders have seniority in regard to repayment of capital.</p>  </div>
+
+</div>    
+<div class="row">
+    
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqothershares.png">
+  </div>
+    
+  <div class="large-11 columns">
+<p class="alignLeft">
+<strong>There are other listed investments that behave similarly to equities</strong>, such as Exchange Traded Funds (ETFs), American Depository Receipts (ADRs), Real Estate Investment Trusts (REITs) and Business Trusts. They are publicly traded and listed on
+various stock exchanges. </p>
+
+    </div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+</div>
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>How does Equity Work?</h2>
+<div class="copy">
+<div class="row">
+<p class="alignLeft">
+</p><p class="alignLeft">When you invest in shares, you may seek a long or short term view in the company. If the company grows and increases in value, its share price will rise and you may sell your shares for a profit. However, if the company falls in value, its share. You may also be affected by corporate actions and rights issues (if any).
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+</div>
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>Benefits of Equity Investment</h2>
+<div class="copy">
+
+    
+<div class="row">
+<p class="alignLeft">
+</p><p class="alignLeft"><strong>Low Capital Requirement:</strong><br>
+The barriers of entry to equities investment are low, depending on exchange rules, the minimum denomination of shares can be as low as one share.</p>
+<p class="alignLeft"><strong>Dividends: </strong><br>
+  Shareholders can be entitled to payment of dividends (or distribution, in case of a REIT or Business Trust)
+  as declared by the Board of Directors of the company. Dividends can be both a source of income and investment returns for investors.
+</p>
+<p class="alignLeft"> <strong>Diversification: </strong><br>
+  Purchasing shares of companies in different sector will help in the diversification of your portfolio. You can
+  also obtain exposure to a sector by investing in shares of that particular industry e.g. REITs or Telecommunications.  </p>
+<p class="alignLeft"><strong>Capital Appreciation: </strong><br>
+  Shareholders can potentially benefit from the price appreciation  of their shares.
+  Capital Appreciation is another source of investment returns in equities.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+</div>
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>Key Risks of Equity Investment
+</h2>
+<div class="copy">
+    <div class="row">
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqmarketrisk.png">
+  </div>
+
+  <div class="large-11 columns">
+<p class="alignLeft"><strong>Market Risk:</strong><br>
+Risk associated with the price of the security. A share price will rise or fall with changing market conditions.</p>  
+</div>
+
+</div>    
+
+    <div class="row">
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqliquidityrisk.png">
+  </div>
+
+  <div class="large-11 columns">
+<p class="alignLeft"> <strong>Liquidity Risk: </strong><br>
+Risk associated with the trading volume and supply and demand of a particular share. A large cap stock is typically very liquid with high trading volumes. A small cap stock may not be highly liquid which may consequently
+lead to a sizeable bid and offer spread.</p>  
+</div>
+
+</div>    
+
+    <div class="row">
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqcurrencyrisk.png">
+  </div>
+
+  <div class="large-11 columns">
+<p class="alignLeft"><strong>Currency Risk: </strong><br>
+If a stock is listed in a foreign stock exchange and is denominated in a different currency than the investor’s home currency, the investor is subject to foreign currency risk as the exchange rate of the investor’s home currency
+and the currency of the underlying share may
+move independently of the price performance
+of the underlying share in its listed currency.</p>  
+</div>
+
+</div>    
+<div class="row">
+  <div class="large-1 columns">
+<img alt="" src="/iwov-resources/PremierWealth/sg/images/eqmacroeconomicrisk.png">
+  </div>
+
+  <div class="large-11 columns">
+<p class="alignLeft"><strong>Macroeconomic Risk:</strong><br>
+The economic performance of the country in which the stock is listed may directly or indirectly affect the performance of the equities market of said country and consequently the price performance of said individual security. </p>  
+</div>
+
+</div>    
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+</div>
+        
+<div class="ls-cmp-wrap ls-1st" id="w1469502076553">
+<!--ls:begin[component-1469502076553]-->
+<div class="iw_component" id="1469502076553">
+<div class="pWealth pw-content">
+<div class="parsys mainpar">
+<div class="titletext section">
+<div class="row dynamicCopy pw-eligibility-copy1">
+<h2>FAQ</h2>
+<div class="copy">
+<div class="row">
+<p class="alignLeft">
+</p>
+<p class="alignLeft"><strong>Q : What stocks or shares should I  buy?
+</strong>
+  <br>
+  A : Stocks that matches  your expected returns, investment horizon, risk appetite and market view.</p>
+<p class="alignLeft"><strong>Q : When should I buy stocks?</strong><br>
+  A : You can buy stocks anytime if they meet your investment objective and risk appetite and independent view of  the underlying equity.</p>
+<p class="alignLeft"><strong>Q : Why do equities prices move?</strong><br>
+  A : There are many factors affecting price actions of a stock.<br>
+  For example, positive news about the company or financial results that are above market  expectations can  positively affect  the price sentiment of a particular stock and vice  versa. The reasons why a share price moves could be due  to company-specific, financial, macroeconomic, geopolitical and industry news  or events and/or a combination of these factors.</p>
+<p class="alignLeft"><strong>Q : What should I do if I'm interested in shares?</strong><br>
+  A : Please contact your dedicated Relationship Manager to find out more about our Equity Trading  Services.</p>
+<p class="alignLeft">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1469502076553]-->
+    
+    
+    
+<div class="iw_component" id="w1469502076490">
+<!-- <div role="main" id="main"> -->
+ <section id="pWealth" class="page">
+ <div class="pWealth">
+  <div class="parsys mainpar">
+
+  <div class="bulletlisting popup-contact section pad-btm-30 mg-top-0">
+<div class="row">
+
+<div class="copy">
+
+<p>Before engaging in an Equity Investment with or through us,
+you should be aware of the risks, which may be involved in such
+trading, as well as some of our policies in respect of such trading. You should not enter into a transaction unless you fully understand:<br>
+
+• The nature and fundamentals of such transaction and the
+market underlying such a transaction;<br>
+
+• The contractual relationship into which you are entering;
+<br>
+• The legal terms and conditions of the documentation for
+such a transaction;
+<br>
+• The nature and extent of the economic risk to which you are
+exposed as a result of such a transaction (and determine that
+such risk is suitable for you in light of your specific
+experience in relation to the specific transaction and your
+financial objectives, circumstances and resources);
+<br>
+• The company, prices, dividends, currencies, exchanges,
+settlement, settlement date, form and denomination, title
+and transfer, fixing date and other terms material to the
+transaction;
+<br>
+• Any terms describing the risk factors, such as market risk
+(with regards to price volatility), liquidity risk, currency risk, macroeconomic risk, regulatory risk, and so on, including any condition(s) attached with the securities, concerning voting
+rights or any other rights and obligations for holders of
+the securities.
+<br>
+<br>
+
+Warning: You may wish to seek advice from a licensed or an
+exempt financial adviser before making a commitment to
+purchase this product. In the event that you choose not to seek
+advice from a licensed or an exempt financial adviser, you
+should carefully consider whether this product is suitable for you.
+</p>
+
+</div>
+</div>
+  </div>
+  </div>
+ </div>
+ </section>
+											  
+<!-- </div> -->
+</div>
+    
+</div>
+        
+  
+              
+
+        
+        </div></div><div class="ls-row-clr"></div></div></div><div class="ls-row off-canvas-wrap-others" id="ls-row-5"><div class="ls-lqr" id="ls-gen70123207-ls-lqr"><div class="ls-area inner-wrap" id="ls-row-5-area-1"><div class="ls-area-body" id="ls-gen70123208-ls-area-body">
+    
+    
+    <div class="ls-cmp-wrap ls-1st" id="w1469502076571"><!--ls:begin[component-1469502076571]--><div class="iw_component" id="1469502076571"><div role="main" id="main">
+<section id="pWealth" class="page">
+<div class="3colcontact">
+<div class="popup-contact">
+<div class="row">
+<div class="large-4 medium-12 columns">
+<div class="contactItem">
+<h6>
+<em>Contact</em>us</h6>
+<p class="phoneNo">1800&ndash;536 7888/(65) 6536 7888</p>
+<p>(Local/Overseas)</p>
+<a class="link" href="mailto:SG.premierwealth@maybank.com"><span>SG.premierwealth@maybank.com</span></a>
+</div>
+
+</div>
+<div class="large-4 medium-12 columns">
+<div class="contactItem">
+<h6>
+<em>We'll</em> call you</h6>
+<p>Drop us your contact details</p>
+<a class="link" href="mailto:SG.premierwealth@maybank.com"><span>SG.premierwealth@maybank.com</span></a>
+</div>
+</div>
+<div class="large-4 medium-12 columns">
+<div class="contactItem">
+<h6>Maybank <em>Premier</em> Centre</h6>
+<p>Conduct your business in private</p>
+<a class="link link-nearestCenter" href="../contact.html"><span>Locate us</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div><!--ls:end[component-1469502076571]--></div>
+    
+    
+    
+    
+    </div></div><div class="ls-row-clr"></div></div></div><div class="ls-row off-canvas-wrap-others" id="ls-row-6"><div class="ls-lqr" id="ls-gen70123209-ls-lqr"><div class="ls-area inner-wrap" id="ls-row-6-area-1"><div class="ls-area-body" id="ls-gen70123210-ls-area-body">
+    
+    
+    
+    <div class="ls-cmp-wrap ls-1st" id="w1469502076569"><!--ls:begin[component-1469502076569]--><div class="iw_component" id="1469502076569"><a class="go2top" href="#"></a><div class="footer">
+<footer>
+<div class="row">
+<div class="copy">&copy; <span id="currentYear">2018 </span>Maybank. All rights reserved. Maybank Singapore Limited (UEN: 201804195C).<a href="/premierwealth/sg/en/terms-conditions.html">Terms of Use</a> | <a href="/premierwealth/sg/en/data-protection-policy.html">Data Protection Policy</a> | <a href="https://www.maybank2u.com.sg">Maybank Singapore</a></div>
+<p></p><p>This site is best viewed on Firefox 25+, Chrome 30+, Safari 6+ and Internet Explorer 8+.</p><p></p>
+<div class="logos"></div>
+
+</div>
+</footer>
+</div><div class="3colcontactoverlay">
+<div class="popupHolder" id="popup-contact">
+<div class="row">
+<div class="popup-contact popup animated">
+<div class="large-4 columns">
+<div class="contactItem">
+<h6>
+<em>Contact</em>us</h6>
+<p class="phoneNo">1800ق│&ocirc;536 7888/(65) 6536 7888</p>
+<p>(Local/Overseas)</p>
+<a class="link" href="mailto:SG.premierwealth@maybank.com"><span>SG.premierwealth@maybank.com</span></a>
+</div>
+</div>
+<div class="large-4 columns">
+<div class="contactItem">
+<h6>
+<em>We'll</em> call you</h6>
+<p>Drop us your contact details</p>
+<a class="link" href="mailto:SG.premierwealth@maybank.com"><span>SG.premierwealth@maybank.com</span></a>
+</div>
+</div>
+<div class="large-4 columns">
+<div class="contactItem">
+<h6>Maybank <em>Premier</em> Centre</h6>
+<p>Conduct your business in private</p>
+<a class="link link-nearestCenter" href="../contact.html"><span>Locate us</span></a>
+</div>
+</div>
+<a class="btnClose" href="#"></a>
+</div><!-- google map --><!-- Popup Nearest center | google map -->
+
+<!-- google map --></div>
+</div>
+</div><div class="popup-old-ie">
+<div class="popupHolder" id="popup-oldBrowser">
+<div class="popup-oldBrowser popup">
+<div class="profiler-banner">
+<img src="/iwov-resources/PremierWealth/images/profiler_bg_my.jpg" alt=""></div>
+<div class="info-wrapper">
+<img alt="" src="/iwov-resources/PremierWealth/images/info_icon.png"><h3>Your journey to dedicated banking starts here.</h3>
+<p>For the best browsing experience, we recommend you view this website in the latest versions of <u><a href="https://www.google.com/intl/en/chrome/browser">Chrome</a></u>, <u><a href="http://www.mozilla.org/en-US/firefox/new">Firefox</a></u>, <u><a href="http://support.apple.com/downloads/#safari">Safari</a></u> or <u><a href="http://windows.microsoft.com/en-my/internet-explorer/download-ie">Internet Explorer</a></u>.<br>
+</p>
+</div>
+</div>
+<div class="disableOverlay"></div>
+</div>
+</div><div class="popup-forsearch searchpopup">
+<div class="popupHolder" id="popup-search">
+<div class="row">
+<div class="popup-search popup">
+<div class="searchBarWrapper">
+<form method="get" action="javascript:alert('Internal forms can not be handled by generated pages.');" id="overlaysearchform">
+<input value="" class="required" name="query" id="quick-search" placeholder="ENTER SEARCH KEYWORD" data-placeholder="ENTER SEARCH KEYWORD" autocomplete="off" data-error="Please enter a search term" type="text"><a href="#" title="" class="btn-search" id="overlay-search-btn"><img src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/images/icon-search.png" alt=""></a>
+</form>
+</div>
+<a href="#" class="btnClose"></a>
+</div>
+</div>
+<div class="overlay"></div>
+</div>
+</div><a class="exit-off-canvas"></a><p>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/jquery.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/plugin.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/jquery-ui-1.10.4.custom.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/jquery.mobile.custom.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/common.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/foundation/foundation.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/foundation/foundation.offcanvas.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/foundation/foundation.orbit.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/foundation/foundation.interchange.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/jquery.form.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/vendor/video.js" type="text/javascript"></script>
+<script src="/iwov-resources/PremierWealth/static/designs/mbbpremier/assets/js/vendor/camera.min.js" type="text/javascript"></script>
+<script src="//js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+</p><script type="text/javascript">
+                    if(document.URL.indexOf("/premierwealth/index.html") != -1){
+            
+                        geoip2.country(function(json){
+							if(json.country.iso_code){
+                            	if(json.country.iso_code=='SG'){
+                                	window.location.href = '/sg'+'/sg.html';
+                                } else if(json.country.iso_code=='PH'){
+                                	window.location.href = '/ph'+'/ph.html';
+                                } else if(json.country.iso_code=='KH'){
+                                	window.location.href = '/kh'+'/kh.html';
+                                } else {
+									window.location.href = '/my'+'/my.html';
+								}
+                            }
+							
+                        }, function(){return;});
+                    } else if(document.URL.indexOf("/privatewealth/index.html") != -1){
+            
+                        geoip2.country(function(json){
+							if(json.country.iso_code){
+                            	if(json.country.iso_code=='SG'){
+                                	window.location.href = '/sg'+'/sg.html';
+                                } else {
+									window.location.href = '/my'+'/my.html';
+								}
+                            }
+							
+                        }, function(){return;});
+                    }
+                </script><script>
+            $(document).foundation({
+                orbit: {
+                    animation: 'slide',
+                    timer_speed: 5000,
+                    pause_on_hover: false,
+                    animation_speed: 500,
+                    navigation_arrows: true,
+                    bullets: false,
+                    slide_number: false,
+                    timer_show_progress_bar: false
+                }
+            });
+            document.createElement('video');document.createElement('audio');document.createElement('track');
+        </script><script type="text/javascript">
+			function  maybank_loc_menu_ui_fix() {
+				if($( window ).width() > 460) {
+					$('.maybank-header-area-cls').css({'overflow':'visible'});
+					$('.maybank-header-area-cls .ls-area-body').css({'overflow':'visible'});
+					$('.maybank-header-area-cls .off-canvas-wrap').css({'overflow':'visible'});
+					
+					$('.maybank-header-area-cls .right-off-canvas-menu').css({'display': 'none'});
+			   } else {
+					$('.maybank-header-area-cls').css({'overflow':''});
+					$('.maybank-header-area-cls .ls-area-body').css({'overflow':''});
+					$('.maybank-header-area-cls .off-canvas-wrap').css({'overflow':''});
+					
+					$('.maybank-header-area-cls .right-off-canvas-menu').css({'display': ''});
+			   }
+			}
+
+			$(document).ready(function() {
+			   maybank_loc_menu_ui_fix();
+			 /*	$(".off-canvas-wrap").removeClass("off-canvas-wrap");
+				$(".inner-wrap").removeClass("inner-wrap");
+				$( ".maybank-flexible-layout" ).wrapInner( '<div class="off-canvas-wrap"></div>');
+				$( ".off-canvas-wrap" ).wrapInner( '<div class="iner-wrap"></div>');	*/
+			});
+
+			$(window).resize(function() {
+			  maybank_loc_menu_ui_fix();
+			});
+			
+			$(document).ready(function(){
+				$("h3").change(function(){
+					//$('.orbit-prev').hide();
+					$('.orbit-next').hide();
+					$('.' + $(this).val()).show();
+				});
+			});
+        </script></div></div>
+</div><!--ls:end[component-1469502076569]--></div></div></div><div class="ls-row-clr"></div></div></div></div><!--ls:end[body]-->
+<script type='text/javascript'>
+// Conversion Name: Premiere Wealth Solution Prestige Savings (Landing Page)
+// INSTRUCTIONS 
+// The Conversion Tags should be placed at the top of the <BODY> section of the HTML page. 
+// In case you want to ensure that the full page loads as a prerequisite for a conversion 
+// being recorded, place the tag at the bottom of the page. Note, however, that this may 
+// skew the data in the case of slow-loading pages and in general not recommended. 
+//
+// NOTE: It is possible to test if the tags are working correctly before campaign launch 
+// as follows:  Browse to http://bs.serving-sys.com/Serving/adServer.bs?cn=at, which is 
+// a page that lets you set your local machine to 'testing' mode.  In this mode, when 
+// visiting a page that includes an conversion tag, a new window will open, showing you 
+// the data sent by the conversion tag to the Sizmek servers. 
+// 
+// END of instructions (These instruction lines can be deleted from the actual HTML)
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<scr'+'ipt src="HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=1240397&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+</script>
+<noscript>
+<img width="1" height="1" style="border:0" src="HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=1240397&amp;ns=1"/>
+</noscript>
+</section></div></body></html>

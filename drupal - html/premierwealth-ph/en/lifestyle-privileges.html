@@ -1,0 +1,360 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js" ></script>
+<link type="image/x-icon" href="/iwov-resources/PremierWealth/images/favicon/favicon.ico" rel="shortcut icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.table th, .table td {
+     padding-bottom: 0.5rem; 
+     padding-top: 0.5rem; 
+}
+.parallax1 { 
+    background-image: url("img/op.png");
+    /* Set a specific height */
+    height: 100px; 
+
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("img/corporate.jpg");
+    /* Set a specific height */
+    height: 100px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-banner{
+max-width:500px;
+margin:auto;
+color:#FFF;
+text-align:center;	
+padding-top:75px;
+
+}
+#navbarColor01{
+    background-color: #ffcf01 !important;
+}
+body{
+    background-color: #27201e !important;
+	
+}
+body h3{
+	color:#977a6a !important;
+}
+p{
+	color:#fff !important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link{
+color:#fff;
+} 
+.head{
+color:#000;
+}
+.sky{
+background-color:#d5f1fc;
+}
+h1{
+text-transform:none;
+}
+body{
+font-family:'Lato', sans-serif;
+color:#000;
+}
+.w-40{
+width:40%;
+}
+.white{
+background-color:#fff;
+padding:30px;
+-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);}
+
+table tr td{
+color:#000;
+}
+strong {
+font-weight:900;
+}
+.body{
+	margin-top:50px;
+}
+.navbarNav a{color:#fff!important}
+.dropdown-menu{
+	background:#27201e;
+}
+.show a.nav-link{
+	color:#fff !important;
+}
+ul li{color:#fff;}
+/*--CSS--*/
+ .block {
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    border-radius: 200px;
+	border:2px solid #977a6a;
+	color:#977a6a !important;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+    display: table;
+    margin: 20px auto;
+}
+.circle p {
+color:#977a6a !important;
+font-size:18px;    
+    vertical-align: middle;
+    display: table-cell;
+}
+strong {
+    font-weight: 900;
+    font-size: 17px;
+    color: #977a6a !important;
+}
+
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark indigo">
+<a class="navbar-brand" href="index.html">  <img id="logo" src="logo-maybank-premier.png" class=""  alt="" style="margin-right:20px; width:256px"></a>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ABOUT US
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		<a class="dropdown-item" href="maybank-group.html">Maybank Group</a>
+		<a class="dropdown-item" href="premier.html">Maybank Premier</a>
+                </div>
+      </li>
+      <li class="nav-item dropdown">
+	  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        OUR PROPOSITION
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="wealth-solutions.html">Wealth Solutions</a>
+          <a class="dropdown-item" href="premier-benefits.html">Premier Benefits</a>
+          <a class="dropdown-item" href="lifestyle-privileges.html">Lifestyle Privileges</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+	  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        EXCLUSIVES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="visa-infinite.html">VISA Infinite Credit Card</a>
+          <a class="dropdown-item" href="publications.html">Publications</a>
+<a class="dropdown-item" href="promos.html">Promotions</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+  <a href="https://www.maybank.com.ph/en/personal/index.page" style="color:#fff">Login to Maybank PH</a>
+  </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav>
+<script>
+/*
+  **********************************************************
+  * OPAQUE NAVBAR SCRIPT
+  **********************************************************
+*/
+  // Toggle tranparent navbar when the user scrolls the page
+$(window).scroll(function() {
+    if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.opaque-navbar').addClass('opaque');
+		$('#logo').removeClass('d-none');
+		
+		console.log("added");
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+			
+    }
+});
+</script>
+<img src="img/op.png" style="width:100% " >
+		<div class="container" style="margin-top:50px;">
+		<div class="row">
+	<div class="col-lg-12" class="body">
+<h3>LIFESTYLE PRIVILEGES</h3>
+<div class="row">
+<div class="col-sm-4"><img src="img/vi.png" style="width:100%"></div>
+<div class="col-sm-8">
+<p><strong style="font-size: 20px !important">Maybank Visa Infinite Credit Card</strong></p>
+<p>Explore further with 1% cashback on overseas spend, the lowest issuer's service fee of 1.75% on foreign currency transactions year round, worldwide golf privileges, complimentary airport lounge access and travel protection.</p>
+
+<p>Take advantage of the following Visa Infinite exclusive privileges: Complimentary Night Hotel Benefit (3+1), Visa Concierge App, and Visa Luxury Hotels. </p>
+<p><a style="color:#fff; text-decoration:underline;" href="https://www.maybank.com.ph/en/personal/cards/credit-cards/visa-infinite.page?" target="_BLANK">Know more about the features and benefits of Maybank Visa Infinite Credit Card, exclusive to Premier clients.</a></p>
+
+
+</div>
+
+</div>
+<h3>WEALTH SOLUTIONS</h3>
+<div class="row">
+<div class="col-sm-4"><img src="img/ws.jpg" style="width:100%"></div>
+<div class="col-sm-8">
+<p><strong style="font-size: 20px !important">Wealth Management Advisory and Solutions</strong></p>
+<p>As a valued Maybank Premier client, it is our priority to ensure that your wealth is not just safeguarded, but grown over time. Together, we will create a financial plan that will assist you in building your legacy for generations to come.</p>
+<p>Our wealth advisory approach is tailored to your specific financial requirements and aspirations. Your investment portfolio is placed in the safe hands of our Relationship Managers, supported by a team of experts.</p>
+
+<p><strong style="font-size: 20px !important">Research Capability</strong></p>
+<p>Take advantage of the expertise of the Maybank Group of Companies here in the Philippines and across the region. You will get access to wealth research via monthly publications on <a style="color:white; text-decoration:underline;" href="https://www.maybankpremierwealth.com/ph/en/publications.html">Investment Strategy Outlook</a>.</p>
+
+<p>You will also get invites to exclusive market outlook events to help you make more informed investment decisions.</p>
+</p>
+</div>
+
+</div>
+<h3>PREMIER BENEFITS</h3>
+<div class="row">
+<div class="col-sm-4"><img src="img/pb.jpg" style="width:100%"></div>
+<div class="col-sm-8">
+<p><strong style="font-size: 20px !important">Dedicated Relationship Manager</strong></p>
+<p>Your Premier Relationship Manager (RM), with the understanding of your risk profile and financial goals, will provide you with customized solutions and suitable investment products. </p>
+<p>Your RM will be your point of contact for all your financial and banking requirements.</p>
+<p><strong style="font-size: 20px !important">Priority Service</strong></p>
+<p>Perform all your banking needs in the comfort and privacy of any of our Maybank Premier Centers here in the Philippines.</p>
+
+<p><strong style="font-size: 20px !important">Preferential Pricing Privileges</strong></p>
+<p>As Premier clients, you are entitled to preferential pricing on banking products and services, including foreign exchange.</p>
+
+</div>
+
+</div>
+
+		
+		</div>
+		</div>		
+		</div> 
+		
+		
+<script>
+
+function submitDetails(){
+if(document.getElementById("cif").value==""){
+document.getElementById("cif").focus();
+}else{
+
+	document.getElementById("carddelivery").innerHTML="";
+document.getElementById("name").value="";
+	document.getElementById("account").value="";
+	document.getElementById("cardno").value="";
+	document.getElementById("cif_date").value="";
+	document.getElementById("account_date").value="";
+	document.getElementById("type").value="";
+
+
+$.ajax({
+  type: "POST",
+  url: "/maybank/api/callcenter/"+document.getElementById("cif").value,
+  data: {},
+  cache: false,
+  success: function(data){
+    obj=JSON.parse(data);
+	console.log(obj);
+	if(obj.status==101){
+	document.getElementById("name").value="";
+	document.getElementById("account").value="";
+	document.getElementById("cardno").value="";
+	document.getElementById("cif_date").value="";
+	document.getElementById("account_date").value="";
+	document.getElementById("type").value="";
+
+	alert("CIF Not Found");
+	}else{
+	document.getElementById("name").value=obj.name;
+	document.getElementById("account").value=obj.account;
+	document.getElementById("cardno").value=obj.cardnumber;
+	document.getElementById("cif_date").value=obj.cif_date;
+	document.getElementById("account_date").value=obj.account_date;
+	document.getElementById("type").value=obj.isave_type;
+		document.getElementById("cardstats").style.display="none";	
+
+	if(obj.cardabest!=null){
+	document.getElementById("cardstats").style.display="";	
+	delivdeets="";
+	var status = "not found";
+	if(obj.card_abest.status=="DEL"){
+	status="Delivered";
+	delivdeets="Received by: "+obj.card_abest.receive_by+"<br />Received On: "+obj.card_abest.receive_date;
+	}else if(obj.card_abest.status=="RTS"){
+	status="Returned to Maybank";
+	delivdeets="Reason: "+obj.card_abest.return_reason+"";
+	
+	}else{
+	status="Dispatched/For Delivery"
+	}
+	
+	document.getElementById("carddelivery").innerHTML="Name:"+obj.card_abest.name+"<br />"+"Status : "+status+"<br />"+delivdeets;
+	
+	}
+	if(obj.card_rts!=null){
+		document.getElementById("cardstats").style.display="";	
+	document.getElementById("carddelivery").innerHTML+="<br />RTS to Branch<br />Delivered via "+obj.card_rts.delivered+" to "+obj.card_rts.branch+" on "+obj.card_rts.release_date;
+
+	}
+	
+	
+	}
+  }
+});
+
+
+}
+
+}
+$(document).ready(function(){
+  jQuery(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:0,
+	autoplay:true,
+	responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:true
+        }
+    }
+});
+});
+</script>
+
+</body>
+</html>

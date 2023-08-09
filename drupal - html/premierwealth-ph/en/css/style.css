@@ -1,0 +1,180 @@
+
+
+
+@font-face {
+    font-family: 'lato';
+    src: url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.select{
+background:#ffcf01;
+}
+.maybankyellow{
+background:#ffcf01;
+background-color:#ffcf01 !important;
+}
+.moveup{
+margin-top:50px;	
+}
+
+.cardgame{
+height:100px;
+padding-top:30px;
+border-radius:5px;
+border:1px #ccc solid;
+}
+.parallax1 { 
+    /* The image used */
+    background-image: url("img/PERSONAL.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("img/PREQUAL.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 { 
+    /* The image used */
+    background-image: url("img/work.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 { 
+    /* The image used */
+    background-image: url("img/ALMOST_THERE.jpg");
+
+    /* Set a specific height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5 { 
+    /* The image used */
+    background-image: url("img/THANK_YOU.jpg");
+
+    /* Set a specific height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test{
+padding-top:20px;
+}
+.fixed-banner{
+max-width:500px;
+margin:auto;
+color:#FFF;
+text-align:center;	
+padding-top:75px;
+
+}
+.parallax1 .fixed-banner, .parallax2 .fixed-banner, .parallax3 .fixed-banner{
+	padding-top:40px;
+
+}
+
+section
+{
+  background:yellow;
+}
+.banner
+{
+  background:red;
+  min-height:200px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:50px;
+}
+.banner h1
+{
+  color:white;
+}
+.nav-item a {
+	color:#977a6a !important;
+}
+
+.active .nav-link {
+	color:#fff !important;
+}
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+/*	background-color:#ffcf01 !important;
+*/
+    background-color: rgba(0,0,0,0.0);
+	color:#fff !important;
+/*background-color:rgba(255,250,250,0.1);*/
+  /* Transparent = rgba(0,0,0,0.1) / Translucent = (0,0,0,0.5)  */
+    height: 40px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+background-color:#fff !important;
+transition: background-color .5s ease 0s;
+}
+
+
+
+@media (max-width: 992px) {
+  body
+  {
+  }
+  .opaque-navbar {
+    height: 75px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+.Zebra_DatePicker_Icon{	
+	top:12px !important;
+}
+.Zebra_DatePicker_Icon_Wrapper{
+	width:100% !important;
+	
+}
+
+body{
+font-family:'Lato', Helvetica, Arial, sans-serif;
+}

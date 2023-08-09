@@ -1,0 +1,361 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="image/x-icon" href="/iwov-resources/PremierWealth/images/favicon/favicon.ico" rel="shortcut icon">
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js" ></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.table th, .table td {
+     padding-bottom: 0.5rem; 
+     padding-top: 0.5rem; 
+}
+.parallax1 { 
+    background-image: url("img/contact.png");
+    /* Set a specific height */
+    height:100px; 
+
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("img/corporate.jpg");
+    /* Set a specific height */
+    height: 100px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-banner{
+max-width:500px;
+margin:auto;
+color:#FFF;
+text-align:center;	
+padding-top:75px;
+
+}
+#navbarColor01{
+    background-color: #ffcf01 !important;
+}
+body{
+    background-color: #27201e !important;
+	
+}
+body h3{
+	color:#977a6a !important;
+}
+p{
+	color:#fff !important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link{
+color:#fff;
+} 
+.head{
+color:#000;
+}
+.sky{
+background-color:#d5f1fc;
+}
+h1{
+text-transform:none;
+}
+body{
+font-family:'Lato', sans-serif;
+color:#000;
+}
+.w-40{
+width:40%;
+}
+.white{
+background-color:#fff;
+padding:30px;
+-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);}
+
+table tr td{
+color:#000;
+}
+strong {
+font-weight:900;
+}
+.body{
+	margin-top:50px;
+}
+.navbarNav a{color:#fff!important}
+.dropdown-menu{
+	background:#27201e;
+}
+.show a.nav-link{
+	color:#fff !important;
+}
+.white p{
+color: #333 !important;
+}
+             .container a{
+	color:#fff !important;
+             }
+             
+</style>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark indigo">
+<a class="navbar-brand" href="index.html">  <img id="logo" src="logo-maybank-premier.png" class=""  alt="" style="margin-right:20px; width:256px"></a>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ABOUT US
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		<a class="dropdown-item" href="maybank-group.html">Maybank Group</a>
+		<a class="dropdown-item" href="premier.html">Maybank Premier</a>
+                </div>
+      </li>
+      <li class="nav-item dropdown">
+	  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        OUR PROPOSITION
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="wealth-solutions.html">Wealth Solutions</a>
+          <a class="dropdown-item" href="premier-benefits.html">Premier Benefits</a>
+          <a class="dropdown-item" href="lifestyle-privileges.html">Lifestyle Privileges</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+	  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        EXCLUSIVES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="visa-infinite.html">VISA Infinite Credit Card</a>
+          <a class="dropdown-item" href="publications.html">Publications</a>
+<a class="dropdown-item" href="promos.html">Promotions</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+  <a href="https://www.maybank.com.ph/en/personal/index.page" style="color:#fff">Login to Maybank PH</a>
+  </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav>
+<script>
+/*
+  **********************************************************
+  * OPAQUE NAVBAR SCRIPT
+  **********************************************************
+*/
+  // Toggle tranparent navbar when the user scrolls the page
+$(window).scroll(function() {
+    if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.opaque-navbar').addClass('opaque');
+		$('#logo').removeClass('d-none');
+		
+		console.log("added");
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+			
+    }
+});
+</script>
+<div class="parallax1 head"  style="min-height:50%;">
+<div style="float:right; background:#977a6a; padding:20px;margin-top:150px"><h1 style="color:#fff !important">Contact Us</h1></div>
+</div>
+
+		<div class="container" style="margin-top:50px;">
+		<div class="row">
+	<div class="col-lg-12" class="body">
+
+
+<div style="text-align:center">
+<p>At Maybank Premier, we look forward to turn your inspiration into reality together.</p>
+<p><a href="pw form.pdf" style="color:#fff; text-decoration:underline;">Let us start your Premier journey</a>, talk to a Premier Relationship Manager today. </p>
+<br />
+<br />
+</div>
+
+
+
+	
+		
+		</div>
+		<div class="col-md-12" style="margin-bottom:25px;">
+		<h3>GET IN TOUCH WITH US.</h3>
+        <p>Let us know your preferred Premier lounge and we will refer you to the assigned Relationship Manager.</p>
+		<p style="font-size:16px;"><p><img src="img/White Email.png" style="width:30px; margin-right:10px;"><strong>Premier Email Address</strong><br />
+          <div style="padding-left:40px;"><p>
+           <a href="mailto:ph.premier@maybank.com" style="color:#FFF;">ph.premier@maybank.com</a></p></div>
+		<p style="font-size:16px;"><p><img src="img/White Phone.png" style="width:30px; margin-right:10px;"><strong>Premier Customer Care Hotline </strong><br />
+
+          <div style="padding-left:40px;"><p><a href="tel:+63285883808" style="color:#FFF;">+632-8588 3808</a> <br />
+PLDT Domestic Toll-free Number <a href="tel:1800106292265" style="color:#FFF;">1-800-10-6292265</a></p></div>
+</p>
+		</div>
+		<div class="col-md-12">
+		<h3>PREMIER LOUNGES</h3>
+		<div class="row" style="margin-top:35px;">
+		<div class="col-md-6">
+		<p><strong>MAIN OFFICE BRANCH</strong></p>
+<p>7th Ave. cor 28th St.,<br />
+Bonifacio Highstreet,<br />
+Bonifacio Global City, <br />
+Taguig City, Metro Manila<br />
+Tel No./s: (02) 8739-1630/ 8478-1155  </p>
+
+<p><strong>AYALA AVENUE BRANCH</strong></p>
+<p>G/F Tower One & Exchange Plaza,<br />
+Ayala Triangle, Ayala Avenue,<br />
+Makati City, Metro Manila<br />
+Tel No./s: (02) 8242-9803</p>
+
+<p><strong>AYALA ALABANG BRANCH</strong></p>
+<p>G/F Commercenter Alabang,<br />
+Commerce Ave cor Filinvest Alabang &<br />
+East Asia Drive, Filinvest Ave,<br />
+Ayala Alabang, Muntinlupa City, Metro Manila<br />
+Tel No./s: (02) 8842-9422 / 8842-9473</p>
+
+
+<p><strong>BINONDO BRANCH</strong></p>
+<p>2F Co Chin Leng Bldg 567-569<br /> Quintin Paredes St<br />
+  Binondo, Manila<br />
+Tel No./s: (02) 8663-0164</p>
+
+<p><strong>QUEZON AVENUE BRANCH</strong></p>
+<p>The Upper Class Bldg.<br /> Quezon Avenue cor. Scout Reyes<br />
+  Quezon City<br />
+Tel. No./s:  (02) 8588-3777 loc. 2824</p>
+
+
+</div>
+<div class="col-md-6">
+<p><strong>CEBU BUSINESS CENTER</strong></p>
+<p>Zenith Central, Lot 2 Block 19, <br />
+Luzon Ave., Cebu Business Park, <br />
+Cebu City<br />
+Tel No./s: (032) 520-5425 / 520-5038</p>
+
+<p><strong>ILOILO BRANCH</strong></p>
+<p>G/F J&B Bldg. II,<br />
+Ledesma St., cor. Mabini St.,<br />
+Iloilo City<br />
+Tel No./s: (033) 337-1707 / 337-9607</p>
+
+
+<p><strong>DAVAO BUSINESS CENTER</strong></p>
+<p>G/F HAI Bldg., Pryce Business Park,<br />
+JP Laurel Ave.,<br />
+Davao City<br />
+Tel No./s: (082) 222-0295 /  222-0328</p>
+
+
+<p><strong>SAN FERNANDO BRANCH</strong></p>
+<p>G/F Odette Grace Bldg.,<br />
+McArthur Highway, Dolores,<br />
+San Fernando City, Pampanga<br />
+Tel No./s: (045) 961-5013 / 961-2274</p>
+
+
+
+		</div>
+		</div>
+
+		</div>
+
+		</div>		
+		</div> 
+		
+		
+<script>
+
+
+
+
+
+function submitDetails(){
+var prize="3";
+if(document.getElementById("fname").value==""){
+document.getElementById("fname").focus();
+}else if(document.getElementById("date").value==""){
+document.getElementById("date").focus();
+}else if(document.getElementById("time").value==""){
+document.getElementById("time").focus();
+}else if(document.getElementById("mobile").value==""){
+document.getElementById("mobile").focus();
+}else if(document.getElementById("email").value==""){
+document.getElementById("email").focus();
+}else{
+$("#submit_button").fadeOut("1000", function(){
+$("#application").fadeOut("1000", function(){
+
+$.ajax({
+  type: "POST",
+  url: "https://secured.maybank.com.ph/maybank/api/leads/premier-contact",
+  data: {
+    "name":document.getElementById("fname").value+"|"+document.getElementById("date").value+"|"+document.getElementById("time").value,
+    "mobile":document.getElementById("mobile").value,
+    "email":document.getElementById("email").value,
+	"action":"add"
+  },
+  cache: false,
+  success: function(data){
+    obj=JSON.parse(data);
+	console.log(obj);
+  }
+});
+
+$("#success").fadeIn("1000");
+});
+
+});
+}
+
+}
+$(document).ready(function(){
+  jQuery(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:0,
+	autoplay:true,
+	responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:true
+        }
+    }
+});
+});
+</script>
+
+</body>
+</html>
