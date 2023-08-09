@@ -1,0 +1,480 @@
+header,
+footer,
+.tile-stock,
+.tile-stock table, .tile-stock table tr th, .tile-stock table tr td,
+.go2top,
+.living-social-block,
+.living-timeline .otherTile,
+.arrange,
+.tile-article,
+#header-right .lang ul,
+html, body,
+.nearestCenter .ct .boxCt,
+.nearestCenter .hd .selectDropdown,
+.popup-customise,
+.timeline-item-wrapper,
+#pArticle .social-function-mobile .fav,
+#pArticle .social-function-mobile,
+.tile-table .tableWrap,
+.sliderCopy .coverBox
+{
+	background-color: #1d1611;
+}
+
+#main,
+.popup-contact,
+.contactItem,
+.popup-arrange,
+.popup-nearestCenter,
+.popup-customise .tags a
+{
+	background-color: #27201e;
+}
+
+#pWealth .popup-contact, 
+#pExpertise .popup-contact{
+	border-color: #977a6a;
+}
+
+.tile-table input[type="text"].txf-gray,
+.tile-table .txf-gray-fake{
+	background-color: #110d0a;
+	border-color: #110d0a;
+}
+
+header .privateWealth,
+nav a,
+.loadMore,
+.tile-title,
+.timeline-info h4,
+.living-timeline .otherTile h4,
+.contactItem,
+.contactItem .link,
+footer .copy,
+.dynamicCopy h2,
+#pWealth .row .large-3,
+.social-function span,
+.text-grey,
+.pContact h1,
+.pContact .arrange .txt-require,
+.arrange label,
+.breadcrumbs a,
+#pArticle .meta,
+.sidebox-popular a,
+.popup-customise .tags a,
+.tile-table .tableWrap,
+.popup-eligibility p,
+.pContact .arrange .callbackSuccess p,
+.arrange .labelRadio
+{
+	color: #977a6a;
+}
+
+nav{
+	border-color: #27201e;
+}
+nav .active a,
+.link-list a,
+#pArticle h1{
+	color: #fff
+}
+
+
+@media only screen and (max-width: 40.062em){
+	.tile-title .actions li:nth-child(2),
+	.tile-title .actions{
+		border-color: #977a6a;
+	}
+	.popup-customise .tags a:hover{
+		background-color: #977a6a;
+		color: #fff;
+	}
+}
+
+
+
+.right-off-canvas-menu{
+	background-color: #977a6a;
+}
+.right-off-canvas-menu > ul > li{
+	border-color: #27201e;
+}
+.right-off-canvas-menu a{
+	color: #362c28;
+}
+.right-off-canvas-menu > ul > li.mobile-lang p:after{
+	background-image: url(../images/icon_arrow_white.png);
+}
+
+
+
+.link-list a.active, .link-list a:hover{
+	color: #ffd200;
+}
+
+
+
+.nearestCenter .hd .selectDropdown-disable{
+	background-color: #977a6a;
+	color: #fff;
+}
+.nearestCenter .hd .selectDropdown-disable p{
+	background-image: url(../images/icon_arrow_white.png);
+}
+.nearestCenter .ct .boxCt address{
+	padding-left: 0;
+	color: #977a6a;
+}
+
+
+
+
+/* HEADER */
+@media (max-width: 460px){
+	#logo-maybank img {
+		/*width: auto;*/
+		margin-top: 18px;
+	}
+}
+#header-right .icons{
+	/*padding: 0 10px;*/
+}
+#header-right .icons a{
+	margin: 0 3px;
+}
+#header-right .icons .iconPhone:last-child{
+	/*display: none;*/
+}
+header .privateWealth{
+	width: 190px;
+	margin-left: -170px;
+	letter-spacing: 1px;
+}
+
+
+/*	FOOTER */
+footer .copy{
+	width: 100%;
+	line-height: 1.5;
+	padding: 20px 0 0;
+	text-align: center;
+	}
+	footer .copy p{
+		display: inline; padding-left: 10px;
+	}
+	@media only screen and (max-width: 40.062em){
+		footer .copy{
+			padding-top: 0px;
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 1024px){
+		footer .copy{
+			width: 100%;
+		}
+	}
+
+
+
+.dynamicCopy em{
+	font-size: 14px;
+	font-style: italic;
+	color: #977a6a;
+}
+
+
+
+/* HIGHLIGHTS */
+.tile .layerFav{
+	background: rgba(29,22,17,.8);
+}
+.tile-photo .caption{
+    background: rgba(29, 22, 17, 0.1);
+}
+#pHome .heroBanner .orbit-caption h6{
+	/*margin-top: 60px;*/
+}
+#pHome .heroBanner .orbit-caption h5{
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+
+
+
+/* LIFESTYLE */
+.dynamicCopy h2,
+.pContact h1,
+#pLiving .heroBanner .orbit-caption h6{
+	/*font-size: 60px;*/
+	/*margin-top: 40px;*/
+}
+.timeline-info h4{
+	
+}
+.living-timeline .otherTile h4{
+	font-family: 'kievit_bold'
+}
+#pLiving .heroBanner .orbit-caption h5{
+	margin-top: 0;
+}
+#pLiving .timeline-info h4{
+	font-size: 36px;
+}
+.timeline-info.left li{
+	padding: 0;
+	list-style-type: none;
+	background: none;
+}
+.timeline-info.left li img{
+	margin-right: 10px;
+}
+.timeline-info li{
+	/*margin-bottom: 24px;*/
+}
+.left.timeline-info li:before{
+	display: none;
+}
+.timeline-info.left li{
+	margin-bottom: 24px;
+}
+
+#pArticle h1{
+	font-family: 'kievit_bold';
+}
+.living-timeline{
+	border-color: #977a6a;
+}
+
+@media only screen and (max-width: 40.062em){
+	.timeline-info li br{
+		display: none;
+	}
+}
+
+
+
+
+/* SOLUTION */
+#pWealth .dynamicCopy > .copy > ul{
+	padding-left: 10px;
+}
+#pWealth .dynamicCopy > .copy > ul > li {
+	list-style-type: none;
+	list-style-position: outside;
+	background: url(../images/bullet.png) no-repeat left center;
+	padding-left: 30px;
+}
+#pWealth .dynamicCopy ul li p{
+}
+#pWealth .dynamicCopy h2{
+	/*font-size: 36px;*/
+}
+#pWealth #pExpertise .row .large-4 h2{
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 0;
+}
+#pWealth .dynamicCopy .sliderCopy .row ul{
+	margin-left: -220px !important;
+}
+
+
+
+
+/* ARTICLE */
+.sidebox-newsLetter input[type="text"]{
+	border-color: #fff;
+	color: #fff;
+}
+
+
+
+
+.popup-takeOver .btnClose{
+	background-image: url(../images/btn_close.png);
+}
+
+
+
+
+@media only screen and (max-width: 40.062em){
+	#pWealth,
+	.arrange select, .arrange input[type="text"],
+	.arrange .existingCustomerRow,
+	.arrange textarea,
+	.pContact .arrange textarea,
+	.pContact .arrange input[type="text"], .pContact .arrange select{
+		background: none;
+		border-color: #988119;
+	}
+	.arrange .btnHolder{
+		background-color: #27201e;
+	}
+	.arrange textarea,
+	.arrange input[type="text"]{
+		text-align: left;
+	}
+	.popup .btnClose{
+		right: 20px;
+		margin: 0;
+	}
+
+}
+
+
+
+
+.account-balance {
+	margin: 35px 0 0;
+}
+	.account-balance table {
+		width: 100%;
+		background: url(../images/header_border.jpg) 0 0 repeat-x transparent;
+	}
+		.account-balance tr.table-title {
+			padding: 5px 0;
+			background: url(../images/header_border.jpg) 0 bottom repeat-x transparent;
+		}
+			.account-balance tr.table-title td {
+				color: #977a6a;
+				text-transform: uppercase;
+				padding: 16px 0;
+			}
+		.account-balance tr {
+			background: #27201e;
+		}
+		.account-balance tr:nth-of-type(even) {
+			background: #251e1b;
+		}
+			.account-balance td {
+				color: #fff;
+				font-size: 16px;
+				text-align: center;
+			}
+	.account-balance > p {
+		color: #977a6a;
+		margin: 20px 0 0;
+	}
+
+.account-note {
+	font-size: 14px;
+	margin: 30px 0 0;
+}
+	.account-note > span {
+		color: #977a6a;
+		font-style: italic;
+	}
+	.account-note p {
+		line-height: 18px;
+	}
+		.account-note p span {
+			color: #ffd200;
+		}
+
+.banking {
+	margin: 50px 0 0;
+}
+	.banking h3 {
+		color: #977a6a;
+		font-size: 36px;
+		text-align: center;
+		font-family: 'kievit_bold';
+		padding: 0 0 30px;
+		background: url(../images/banking_seperator.png) center bottom no-repeat transparent;
+	}
+	.banking-wrapper {
+
+	}
+		.banking-item-list {
+			clear: both;
+			margin: 50px 0;
+			overflow: hidden;
+		}
+			.banking-item {
+				width: 240px;
+				float: left;
+				margin-left: 30px;
+				text-align: center;
+			}
+			.banking-item.first {
+				margin-left: 0;
+			}
+				.banking-item span {
+					display: block;
+					height: 60px;
+					margin: 0 0 25px;
+				}
+				.banking-item h5 {
+					font-size: 16px;
+					color: #977a6a;
+					text-align: left;
+					margin: 0 0 10px;
+				}
+				.banking-item p {
+					font-size: 14px;
+					text-align: left;
+				}
+
+@media (max-width: 660px) {
+	.banking-item {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		padding: 0 30px;
+	}
+		.banking-item h5 {
+			text-align: center;
+		}
+		.banking-item p {
+			text-align: center;
+		}
+}
+
+
+@media only screen and (max-width: 40.062em){
+	#pExpertise {
+	    background: none;
+	}
+}
+
+
+
+.popup-eligibility{
+	background-color: #221b17;
+}
+.popup-eligibility h3{
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+.popup-eligibility p{
+	font-size: 18px;
+}
+.popup-eligibility ul{
+	margin-bottom: 10px;
+}
+.popup-eligibility li{
+	background: url(../images/bullet_yellow_circle.png) no-repeat left 17px;
+	padding-left: 35px;
+	font-size: 25px;
+	line-height: 1.3;
+}
+.popup-eligibility .row .row .columns{
+	font-size: 26px;
+	background-color: #221b17;
+}
+
+@media (max-width: 1080px){
+	.popup-eligibility li{
+		font-size: 30px;
+	}
+}
+
+
+
+.nearestCenter .hd .privateTab{
+	background: #977A6A;
+	color: #fff;
+	font-size: 18px;
+}

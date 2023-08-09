@@ -1,0 +1,284 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+a {
+    color: #ffc000;
+}
+
+    a:hover {
+        color: #fff222;
+        text-decoration: none;
+    }
+
+ul {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #27201e;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.black {
+    color: #000;
+}
+
+.tableParent {
+    width: 100%;
+    height: 100% !important;
+    display: table !important;
+}
+
+
+.pwBody {
+    padding: 0px 0px 40px 0px;
+    background-color: #27201e;
+}
+
+    .pwBody:nth-child(n) {
+        filter: none;
+    }
+
+.minimumWidth {
+    width: inherit !important;
+    position: relative;
+    top: -4px;
+}
+
+.form-horizontal .control-label {
+    font-weight: normal !important;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.treatPoints h1 {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    color: #977A6A; 
+    font-familyz:kievit_regular;
+}
+
+.legend {
+    display: inline-block;
+    float: right;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+.labelText {
+    text-align: left !important;
+    clear: both;
+    width: auto;
+    padding: 0;
+    font-size: 16px;
+    font-family: kievit_regular;
+    color:#fff;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+
+.labelTextHeader {
+    text-align: left !important;
+}
+
+.labelTextCenter {
+    text-align: center !important;
+}
+
+.reverseCalculation {
+    display: block;
+    line-height: 20px;
+    padding-right: 30px;
+}
+
+
+.reverseCalculation img {
+    width: 100px;
+    height: 100px;
+    /*
+    position: relative;
+    top: 15px;
+    vertical-align: bottom;    
+    */
+}
+
+.reverseCalculation td {
+    vertical-align: middle; 
+}
+
+.reverseCalculation td + td {
+    padding-left: 20px;
+}
+
+.rzslider span.pointer {
+}
+
+.barBorder {
+    border-left: 1px solid #977A6A;
+    height: 17px;
+    position: absolute;
+    top: 22px;
+    right: 14px;
+}
+
+.increaseNumber{
+    top: -20px !important;
+    padding: 0 !important;
+    font-size: 16px;
+    font-family: kievit_regular;
+}
+.rzslider span.bubble.limit{
+}
+
+/*.form-horizontal{
+    padding: 0 40px;
+}*/
+
+.form-group {
+    margin-top: 70px;
+}
+
+.rzForm{
+}
+
+.rzLeft{
+    margin-left:-3px !important;
+}
+
+.rzRight{
+    right: 0 !important;
+    text-align: right;
+}
+
+.txtPoint{
+    color: #fff;
+    float: left;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: kievit_regular;
+}
+
+h1.ng-binding{
+	font-family: kievit_bold;
+}
+
+
+.txtRosewood{
+     color: #977a6a !important;
+     float: left;
+     margin: 0;
+     font-size: 16px;
+     font-family: kievit_regular;
+}
+.txtHeader{
+    color: #977a6a;
+	margin-top:1px;
+    font-family: kievit_regular;
+    font-size:30px;
+    line-height:30px;
+    padding-bottom:10px;
+
+}
+.txtHeaderDesc{
+	margin-bottom:10px;
+    font-size: 16px;
+    font-family: kievit_regular;
+}
+
+.toggleswitch .switch-left {
+    background-color: #977a6a !important;
+}
+
+.pwBody img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.bottomImg{
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.bottomImgTxt {
+    color: #977a6a;
+    font-family: kievit_regular;
+    font-size: 18px;
+}
+
+.bottomImg p {
+    line-height: 20px;
+    font-family: kievit_regular;
+    font-size: 16px;
+}
+
+.bottomImgWrapper {
+    margin: 40px auto;
+    float: none;
+}
+
+@media (min-width: 320px) and (max-width: 769px){
+
+    .txtRosewood{
+        float: none;
+        clear: both;
+    }
+
+    /*.form-horizontal{
+        padding: 0 10px;
+    }*/
+
+    .rzRight{
+        margin-left: !important;
+    }
+
+    .barMargin{
+        margin-top: 20px;
+    }
+
+    .toggleswitch{
+        margin-top: 0 !important;
+    }
+
+    .form-group{
+        margin-top: 50px;
+    }
+
+    .pwBody img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .bottomImg{
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+

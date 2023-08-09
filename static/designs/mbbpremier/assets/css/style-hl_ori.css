@@ -1,0 +1,548 @@
+.section-highlights {
+	padding:30px 0px;
+	background-color:#2B2523;
+}
+
+.section-highlights-socialshare {
+	padding:30px 0px;
+	background-color:#271D15;
+}
+
+.section-highlights-title {
+	margin-bottom:20px;
+	font-family: 'kievit_bold';
+	font-size:36px;
+	line-height:40px;
+	color:#977A6A;
+	text-align:center;
+}
+
+.sec-divider {
+	border-bottom:1px solid #977a6a;
+}
+
+.row-hl-section-1 {
+}
+
+.col-hl-section-1 {
+}
+
+.row-hl-section-2 {
+}
+
+.col-hl-section-2 {
+}
+
+.img-promo {
+	
+}
+
+.img-promo img {
+	width:100%;
+}
+
+.hl-promo-container {
+	padding:10px 0px;
+}
+
+.hl-promo-card {
+	position:relative;
+	padding:20px;
+	border:1px solid #977a6a;
+}
+
+.hl-promo-image {
+	margin-bottom:20px;
+}
+
+.hl-promo-image img {
+	width:100%;
+}
+
+.hl-promo-header {
+	margin-bottom:10px;
+}
+
+.hl-promo-title {
+	font-family: 'kievit_bold';
+	font-size:34px;
+	line-height:38px;
+	color:#977A6A;
+	text-align:left;
+}
+
+.section-highlights-col-3 .hl-promo-title {
+	font-size:24px;
+	line-height:30px;
+}
+
+.hl-promo-body {
+	margin-bottom:10px;
+}
+
+.hl-promo-content {
+	font-family: kievit_regular;
+	font-size:15px;
+	line-height:20px;
+	color:#ffffff;
+	text-align:left;
+}
+
+.hl-promo-content-enlarge {
+	font-family: "roboto-bold";
+	font-size:26px;
+	line-height:26px;
+	color:#977A6A;
+}
+
+.section-highlights-col-3 .hl-promo-content {
+	font-size:14px;
+	line-height:20px;
+}
+
+.hl-promo-desc-pt {
+	display:inline-block;
+}
+
+.hl-promo-desc-pt:first-child {
+	width:52px;
+	font-family: "roboto-bold";
+	color:#977a6a;
+}
+
+.hl-promo-desc-pt:last-child {
+	width:370px;
+}
+
+.section-highlights-col-3 .hl-promo-desc-pt:last-child {
+	width:200px;
+}
+
+#hl-promo-desc-pt-1-1 .hl-promo-desc-line-1 {
+	font-size:24px;
+	line-height:24px;
+}
+
+#hl-promo-desc-pt-1-1 .hl-promo-desc-line-2 {
+	font-size:12px;
+	line-height:12px;
+}
+
+#hl-promo-desc-pt-2-1 .hl-promo-desc-line-1 {
+	font-size:38px;
+	line-height:38px;
+}
+
+.hl-promo-desc {
+	margin:20px auto 30px auto;
+	padding:10px;
+	background-color: #1d1611;
+}
+
+.hl-promo-desc-2 {
+	margin:20px auto 30px auto;
+	padding:10px;
+	background-color: transparent;
+}
+
+.ul-hl-promo {
+	padding-left:15px;
+}
+
+.li-hl-promo {
+	overflow:visible;
+	list-style-type:disc;
+}
+
+.row-note {
+}
+
+.col-note {
+	padding: 20px 15px;
+}
+
+.note-promo-title {
+	margin-bottom:10px;
+	font-family: "roboto-bold";
+	font-size:18px;
+	line-height:22px;
+	color:#977A6A;
+}
+
+.note-promo-desc {
+	margin-bottom:10px;
+	font-family: kievit_regular;
+	font-size:15px;
+	line-height:20px;
+	color:#ffffff;
+	text-align: center;
+}
+
+.note-hl-promo-desc-pt {
+	margin-top:10px;
+}
+
+.note-hl-promo-desc-pt .note-promo-title {
+	margin-bottom:10px;
+	font-size:16px;
+	line-height:20px;
+}
+
+.note-hl-promo-desc-pt .note-promo-desc {
+	margin-bottom:10px;
+	font-size:15px;
+	line-height:20px;
+	text-align: left;
+}
+
+.mortgage-benefit-container {
+	margin: 20px auto;
+}
+
+.row-mortgage-benefit {
+	margin-bottom:20px !important;
+}
+
+.col-mortgage-benefit {
+	border-right:1px solid #977a6a;
+}
+
+.col-mortgage-benefit:last-child {
+	border-right:none;
+}
+
+.mortgage-benefit-card {
+	height:150px;
+}
+
+.mortgage-benefit-ico {
+	margin:10px auto;
+	width:50px;
+}
+
+.mortgage-benefit-ico img {
+	width:100%;
+}
+
+.mortgage-benefit-desc {
+	margin:10px auto;
+	font-family: kievit_regular;
+	font-size:16px;
+	line-height:20px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#hl-promo-card-1,
+#hl-promo-card-2 {
+	height:660px;
+}
+
+#hl-promo-card-1b,
+#hl-promo-card-2b {
+	height:810px;
+}
+
+#hl-promo-card-1 .row-hl-cta,
+#hl-promo-card-2 .row-hl-cta,
+#hl-promo-card-1b .row-hl-cta,
+#hl-promo-card-2b .row-hl-cta {
+	width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.row-hl-cta {
+}
+
+.col-hl-cta {
+}
+
+.btn-cta-hl {
+	margin:auto;
+	padding:10px 20px;
+	border-radius:20px;
+	height:40px;
+	background:url("/iwov-resources/PremierWealth/my/images/highlights/btn-bg-brown.png") repeat-x center center;
+	font-family: "roboto-regular";
+	font-size:18px;
+	line-height:18px;
+	color:#ffffff;
+	text-align:center;
+}
+
+.section-highlights-col-3 .btn-cta-hl {
+	font-size:12px;
+	line-height:16px;
+}
+
+.hl-promo-note {
+	color:#8D770D;
+	line-height:40px;
+	text-align:right;
+}
+
+.hl-promo-note-2 {
+	padding-top: 6px;
+    line-height: 14px;
+	color:#8D770D;
+	text-align:right;
+}
+
+.section-highlights-col-3 .hl-promo-note {
+	padding-top: 6px;
+    line-height: 14px;
+}
+
+.row-hl-socialshare {
+}
+
+.col-hl-socialshare {
+	text-align:right;
+}
+
+.section-highlights-socialshare .social-function {
+    float: right;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 15px;
+    width: 280px;
+}
+
+.section-highlights-form {
+	padding:50px 0px 60px 0px;
+	background-color:#392f2c;
+}
+
+.frm-highlights {
+	margin: auto;
+    padding: 30px 40px;
+    max-width: 550px;
+    border: 1px solid #977A6A;
+}
+
+.frm-title {
+	margin-bottom:20px;
+	padding-bottom:20px;
+	font-family: "roboto-thin";
+	font-size:28px;
+	line-height:30px;
+	color:#ffffff;
+	text-align:center;
+	background: url(/iwov-resources/PremierWealth/images/wealth_divider.png) no-repeat center bottom;
+}
+
+.frm-desc {
+	margin-bottom:20px;
+	font-family: kievit_regular;
+	font-size:16px;
+	line-height:20px;
+	color:#977A6A;
+	text-align:center;
+}
+
+.frm-highlights .form-group {
+	margin-top:0px;
+}
+
+.row-promo-fluid {
+}
+
+.col-promo-fluid {
+}
+
+.col-liquidity {
+	padding:10px 0px 10px 15px;
+}
+
+.col-liquidity:first-child {
+	border-right:1px solid #977A6A;
+}
+
+@media only screen and (max-width:320px) {
+	.col-hl-section-1,
+	.col-hl-section-2 {
+		width:100%;
+	}
+	
+	.col-mortgage-benefit {
+		border-right:none;
+	}
+	
+	.hl-promo-desc-pt:first-child,
+	.hl-promo-desc-pt:last-child {
+		width:100%;
+	}
+	
+	.frm-highlights {
+		max-width: 280px;
+	}
+	
+	.col-hl-section-1,
+	.col-hl-section-2,
+	.col-promo-fluid {
+		width:100% !important;
+	}
+	
+	.col-promo-fluid {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	
+	.col-liquidity:first-child {
+		border-right:none;
+		border-bottom:1px solid #977A6A;
+	}
+	
+	.hl-promo-content-enlarge {
+		font-size:26px;
+		line-height:26px;
+	}
+}
+
+@media only screen and (min-width:321px) and (max-width:480px) {
+	.col-hl-section-1,
+	.col-hl-section-2 {
+		width:100%;
+	}
+	
+	.col-mortgage-benefit {
+		border-right:none;
+	}
+	
+	.hl-promo-desc-pt:first-child,
+	.hl-promo-desc-pt:last-child {
+		width:100%;
+	}
+	
+	.frm-highlights {
+		max-width: 320px;
+	}
+	
+	.col-hl-section-1,
+	.col-hl-section-2,
+	.col-promo-fluid {
+		width:100% !important;
+	}
+	
+	.col-promo-fluid {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	
+	.col-liquidity:first-child {
+		border-right:none;
+		border-bottom:1px solid #977A6A;
+	}
+	
+	.hl-promo-content-enlarge {
+		font-size:26px;
+		line-height:26px;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) {
+	.col-hl-section-1,
+	.col-hl-section-2 {
+		width:100%;
+	}
+	
+	.col-mortgage-benefit {
+		border-right:none;
+	}
+	
+	.hl-promo-desc-pt:first-child,
+	.hl-promo-desc-pt:last-child {
+		width:100%;
+	}
+	
+	.frm-highlights {
+		max-width: 460px;
+	}
+	
+	.col-hl-section-1,
+	.col-hl-section-2,
+	.col-promo-fluid {
+		width:100% !important;
+	}
+	
+	.col-promo-fluid {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	
+	.col-liquidity:first-child {
+		border-right:none;
+		border-bottom:1px solid #977A6A;
+	}
+	
+	.hl-promo-content-enlarge {
+		font-size:26px;
+		line-height:26px;
+	}
+}
+
+@media only screen and (min-width:641px) and (max-width:767px) {
+	.col-hl-section-1,
+	.col-hl-section-2 {
+		width:100%;
+	}
+	
+	.col-mortgage-benefit {
+		border-right:none;
+	}
+	
+	.hl-promo-desc-pt:first-child,
+	.hl-promo-desc-pt:last-child {
+		width:100%;
+	}
+	
+	.frm-highlights {
+		max-width: 600px;
+	}
+	
+	.col-hl-section-1,
+	.col-hl-section-2,
+	.col-promo-fluid {
+		width:100% !important;
+	}
+	
+	.col-promo-fluid {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	
+	.col-liquidity:first-child {
+		border-right:none;
+		border-bottom:1px solid #977A6A;
+	}
+	
+	.hl-promo-content-enlarge {
+		font-size:26px;
+		line-height:26px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+}
+
+@media only screen and (max-width:992px) {
+	#hl-promo-card-1,
+	#hl-promo-card-2,
+	#hl-promo-card-1b,
+	#hl-promo-card-2b {
+		height:auto;
+	}
+
+	#hl-promo-card-1 .row-hl-cta,
+	#hl-promo-card-2 .row-hl-cta,
+	#hl-promo-card-1b .row-hl-cta,
+	#hl-promo-card-2b .row-hl-cta {
+		width: auto;
+    	position: relative;
+    	bottom: 0px;
+	}
+}
+
+@media only screen and (min-width:992px) {
+}

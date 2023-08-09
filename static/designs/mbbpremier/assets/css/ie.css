@@ -1,0 +1,127 @@
+/* Reset */
+textarea{padding-left:2px}
+
+select{
+	background-image: none !important;
+}
+.ie-old select{
+	/*display: block !important;*/
+	/*background-image: url(../images/b.gif) !important;
+	background-repeat: repeat !important;*/
+	background-color: #fff;
+}
+.ie-old .taste-wrapper .form .large-4 .input_email input[type="text"]{
+	background: url(../images/b.gif) repeat !important;
+}
+.ie-old .popupHolder .popup{
+	opacity: 1 !important;
+}
+
+.ie-old .right-off-canvas-menu {
+	right: -100%;
+}
+
+.ie-old .row{
+	max-width: 1050px;
+	width: 1050px;
+}
+.ie-old .row .row{
+	width: 100%;
+}
+
+.ie-old #pContact .row .large-4{
+	width: 40%;
+}
+.ie-old #pContact .row .large-8{
+	width: 60%;
+}
+
+.ie-old .tile .layerFav,
+.ie-old .tile-table .txf-gray-fake,
+.ie-old .tile-photo .caption,
+.ie-old .tile-video .btn-play,
+.ie-old .popupHolder .overlay{
+	background: url(../images/black80.png) repeat;
+}
+
+.ie-old input.styled{
+	display: block !important;
+	float: left;
+	margin-left: -22px;
+	margin-top: 4px;
+}
+.ie-old .email-form form > div.acceptTermCover .checkbox, 
+.ie-old .pw-form form > div.acceptTermCover .checkbox{
+	display: none;
+}
+
+.ie-old .pContact .arrange input[type="text"], 
+.ie-old .pContact .arrange select,
+.ie-old .arrange select.arrange-title,
+.ie-old .arrange select,
+.ie-old .sidebox-newsLetter input[type="text"]{
+	height: auto !important;
+	line-height: 1 !important;
+	padding: 7px 10px !important;
+}
+
+.ie-old .sidebox-newsLetter input[type="text"]{
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+
+
+
+/* HEADER */
+.ie-old #header-right{
+	width: 350px;
+	text-align: right;
+}
+
+
+/* ARTICLE */
+.ie-old #pArticle .large-3 .attendSlider .btns{
+	display: none;
+}
+.ie-old #pArticle .large-3 .attendSlider:hover .btns {
+	display: block;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.ie-old .row{
+		max-width: 900px;
+		width: 900px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.ie-old .row{
+		width: 100%;
+	}
+	.ie-old #header-right{
+		width: auto;
+	}
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+
+@media (min-width: 321px) and (max-width: 360px) {
+
+}
+
+
+@media (max-width: 320px) {
+}
